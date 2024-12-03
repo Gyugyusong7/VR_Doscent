@@ -415,7 +415,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2025726905}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: GotoLobby, Assembly-CSharp
         m_MethodName: ChangeToLobbyScene
         m_Mode: 1
