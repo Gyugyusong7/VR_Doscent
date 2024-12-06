@@ -11,6 +11,6 @@ public class SceneMgr : MonoBehaviour
     private async void Start()
     {
         await Task.Delay(500);
-        await SceneManager.LoadSceneAsync("Doscent&Others", LoadSceneMode.Additive);
+        await SceneManager.LoadSceneAsync("Doscent&Others-SKS", LoadSceneMode.Additive);
     }
 }
