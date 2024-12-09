@@ -16,7 +16,7 @@ public class DoscentScript : MonoBehaviour
     [SerializeField] private float[] autumnIntermissions;
     [SerializeField] private AudioClip[] winterClips;
     [SerializeField] private float[] winterIntermissions;
-
+    [SerializeField] private DoscentAnimation doscentAnimation;
     public static Action<seasons> OnSeasonChange;
 
     private CancellationTokenSource cancellationTokenSource;
