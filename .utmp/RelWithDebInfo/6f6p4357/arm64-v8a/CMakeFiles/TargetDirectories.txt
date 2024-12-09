@@ -1,0 +1,5 @@
+C:/Users/DUCOgen_Legion2060_1/Desktop/UnityProject/VR_Doscent/.utmp/RelWithDebInfo/6f6p4357/arm64-v8a/CMakeFiles/edit_cache.dir
+C:/Users/DUCOgen_Legion2060_1/Desktop/UnityProject/VR_Doscent/.utmp/RelWithDebInfo/6f6p4357/arm64-v8a/CMakeFiles/rebuild_cache.dir
+C:/Users/DUCOgen_Legion2060_1/Desktop/UnityProject/VR_Doscent/.utmp/RelWithDebInfo/6f6p4357/arm64-v8a/GameActivity/CMakeFiles/game.dir
+C:/Users/DUCOgen_Legion2060_1/Desktop/UnityProject/VR_Doscent/.utmp/RelWithDebInfo/6f6p4357/arm64-v8a/GameActivity/CMakeFiles/edit_cache.dir
+C:/Users/DUCOgen_Legion2060_1/Desktop/UnityProject/VR_Doscent/.utmp/RelWithDebInfo/6f6p4357/arm64-v8a/GameActivity/CMakeFiles/rebuild_cache.dir

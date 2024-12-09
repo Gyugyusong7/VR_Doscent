@@ -1,6 +1,5 @@
 using System;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class DoscentAnimation : MonoBehaviour
 {
@@ -11,6 +10,9 @@ public class DoscentAnimation : MonoBehaviour
     public static Action OnIdleActive;
     public static Action OnSway;
     public static Action OnVictory;
+    public static Action OnSense;
+    public static Action OnNod;
+    public static Action OnFall;
 
     private readonly int hashIdle = Animator.StringToHash("Idle");
     private readonly int hashJump = Animator.StringToHash("Jump");
@@ -18,10 +20,9 @@ public class DoscentAnimation : MonoBehaviour
     private readonly int hashIdleActive = Animator.StringToHash("IdleActive");
     private readonly int hashSway = Animator.StringToHash("Sway");
     private readonly int hashVictory = Animator.StringToHash("Victory");
-    private void Awake()
-    {
-        SceneManager.LoadScene("TestScene-SKS", LoadSceneMode.Additive);
-    }
+    private readonly int hashSense = Animator.StringToHash("Sense");
+    private readonly int hashNod = Animator.StringToHash("Nod");
+    private readonly int hashFall = Animator.StringToHash("Fall");
     private void OnEnable()
     {
         OnIdle += Idle;
@@ -30,7 +31,13 @@ public class DoscentAnimation : MonoBehaviour
         OnIdleActive += IdleActive;
         OnSway += Sway;
         OnVictory += Victory;
+        OnSense += Sense;
+        OnNod += Nod;
+        OnFall += Fall;
     }
+
+
+
     private void OnDisable()
     {
         OnIdle -= Idle;
@@ -39,6 +46,9 @@ public class DoscentAnimation : MonoBehaviour
         OnIdleActive -= IdleActive;
         OnSway -= Sway;
         OnVictory -= Victory;
+        OnSense -= Sense;
+        OnNod -= Nod;
+        OnFall -= Fall;
     }
     private void Idle()
     {
@@ -64,5 +74,17 @@ public class DoscentAnimation : MonoBehaviour
     private void Victory()
     {
         animator.SetTrigger(hashVictory);
+    }
+    private void Sense()
+    {
+        animator.SetTrigger(hashSense);
+    }
+    private void Nod()
+    {
+        animator.SetTrigger(hashNod);
+    }
+    private void Fall()
+    {
+        animator.SetTrigger(hashFall);
     }
 }
